@@ -19,8 +19,8 @@ export default function Page(){
 
       {/* Eventos Recentes */}
 
-      <div className="eventoContainer">
-        <div className="evento bg-[url('/l1_novo.jpeg')] bg-cover bg-no-repeat h-60 md:h-[30rem] bg-center flex items-center justify-start px-4">
+      <div>
+        <div className="bg-[url('/l1_novo.jpeg')] bg-cover bg-no-repeat h-60 md:h-[30rem] bg-center flex items-center justify-start px-4">
           <div>
             <em className="font-thin text-white text-xl md:text-4xl">12 de SETEMBRO</em>
             <br />
