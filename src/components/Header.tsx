@@ -12,7 +12,7 @@ export const Header = () => {
     return (
         <nav className="bg-green-600 px-6 py-1 flex justify-between items-center">
             <div className="logo">
-                <img src="/logo.png" width="12%" className="bg-white"/>
+                <img src="/logo2.jpg" width="16%" className=""/>
             </div>
 
             <nav className="nav_list md:flex gap-52 hidden ">
