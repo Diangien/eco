@@ -12,7 +12,7 @@ export default function Page(){
       {/* Eventos Recentes */}
 
       <div>
-        <div className="banner h-60 md:h-[30rem] bg-center flex items-center justify-start px-4">
+        <div className="banner h-80  bg-center flex items-center justify-start px-4">
           <div>
             <em className="font-thin text-white text-xl md:text-4xl">12 de SETEMBRO</em>
             <br />
@@ -32,7 +32,7 @@ export default function Page(){
 
       <div className="pt-4 px-2 flex flex-col items-center">
         <h1 className="text-center font-extrabold text-green-600 text-xl pb-2">NOTÍCIAS AMBIENTAIS</h1>
-        <div className="noticia_container flex gap-6">
+        <div className="noticia_container flex gap-6 flex-wrap">
           <div className="noticia w-96">
             <img src="/post1.jpg" alt="" />
             <h2 className="font-bold pt-2">O impacto da Poluição Marinha na Vida Aquática</h2>
